@@ -7,7 +7,6 @@ backend:
     build:
       commands:
         - npm ci --cache .npm --prefer-offline
-        - npx ampx generate outputs
 frontend:
   phases:
     preBuild:
